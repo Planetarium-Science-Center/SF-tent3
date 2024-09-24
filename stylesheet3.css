@@ -67,7 +67,7 @@ h1 {
     background-size: contain; /* Ensures background scales properly */
     background-repeat: no-repeat; /* Prevents repeating the image */
     background-position: center; /* Keeps the background centered */
-    padding: 100px;
+    padding: 80px;
     margin: 10% auto;
     width: 100%;
     max-width: 600px; /* Limit maximum width on large screens */
