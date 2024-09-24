@@ -67,7 +67,7 @@ h1 {
     background-size: contain; /* Ensures background scales properly */
     background-repeat: no-repeat; /* Prevents repeating the image */
     background-position: center; /* Keeps the background centered */
-    padding: 80px;
+    padding: 100px;
     margin: 10% auto;
     width: 100%;
     max-width: 600px; /* Limit maximum width on large screens */
@@ -109,7 +109,7 @@ h1 {
         width: 95%; /* More responsive for small screens */
         max-width: none; /* Removes max-width limitation */
         padding: 60px; /* Reduces padding */
-        font-size: x-small;
+        font-size: xx-small;
     }
 
     .modal {
