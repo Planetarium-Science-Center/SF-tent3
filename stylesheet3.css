@@ -109,7 +109,7 @@ h1 {
         width: 95%; /* More responsive for small screens */
         max-width: none; /* Removes max-width limitation */
         padding: 60px; /* Reduces padding */
-        font-size: xx-small;
+        font-size: x-small;
     }
 
     .modal {
