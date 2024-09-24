@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خيمة هرم سقارة</title>
+    <link rel="stylesheet" href="stylesheet3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <h1>خيمة هرم سقارة</h1>
+
+    <video autoplay loop muted controls style="width: 95%; border-radius: 10px;">
+        <source src="tent 3 video.mp4" type="video/mp4">
+    </video>
+
+    
+    <h2 style="color:  #f4ecd8; font-size: small;">اضغط على أماكن العارضين للمزيد من المعلومات</h2>
+
+    <div class="map" id="map1">
+        <img src="Tent 3.jpg" alt="Map 1" class="map-img">
+        <button class="popup-btn" style="bottom: 34%; left: 10%;" data-workshop="workshop27"><i class="fa-solid fa-bullseye fa-beat-fade" style="color: #ffffff;"></i></button>
+        <button class="popup-btn" style="bottom: 34%; left: 19%;" data-workshop="workshop28"><i class="fa-solid fa-bullseye fa-beat-fade" style="color: #ffffff;"></i></button>
+        <button class="popup-btn" style="bottom: 34%; left: 27%;" data-workshop="workshop29"><i class="fa-solid fa-bullseye fa-beat-fade" style="color: #ffffff;"></i></button>
+        <button class="popup-btn" style="top: 35%; left: 17%;" data-workshop="workshop30"><i class="fa-solid fa-bullseye fa-beat-fade" style="color: #ffffff;"></i></button>
+        <button class="popup-btn" style="top: 35%; left: 25%;" data-workshop="workshop31"><i class="fa-solid fa-bullseye fa-beat-fade" style="color: #ffffff;"></i></button>
+        <button class="popup-btn" style="top: 35%; left: 33%;" data-workshop="workshop32"><i class="fa-solid fa-bullseye fa-beat-fade" style="color: #ffffff;"></i></button>
+        <button class="popup-btn" style="top: 50%; right: 33%;" data-workshop="workshopG-mind"><i class="fa-solid fa-bullseye fa-beat-fade fa-2xl" style="color: #ffffff;"></i></button>
+    </div>
+
+ <!-- Popup Modal -->
+ <div id="popup-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="workshop-title"></h2>
+        <p id="workshop-description"></p>
+        <p dir="rtl">
+            <img src="Age icon.svg" alt="Age Icon" style="width: 20px; height: 10px; margin-inline-end: 5px; vertical-align: middle;">
+        <strong>الفئة العمرية:</strong> 
+            <span id="workshop-age"></span>
+        </p>
+        <p dir="rtl">
+            <img src="Timer icon.svg" alt="Timer Icon" style="width: 10px; height: 10px; margin-left: 5px; vertical-align: middle;">
+            <strong>مدة الورشة:</strong> 
+            <span id="workshop-time"></span> 
+        </p>
+    </div>
+</div>
+
+<br><img src="psc logo.svg" style="width: 40%;">
+
+<script src="page3 script.js"></script>
+</body>
+</html>
